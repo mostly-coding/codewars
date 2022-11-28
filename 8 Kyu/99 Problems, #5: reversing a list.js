@@ -4,6 +4,6 @@
 
 const rev = (xs) => {
   const arr = [];
-  xs.map((v) => arr.unshift(v));
+  xs.map((x) => arr.unshift(x));
   return arr;
 };
